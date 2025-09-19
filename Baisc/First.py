@@ -8,3 +8,4 @@ x = [1,2,3,4,5]
 y = [10,20,15,60,40]
 plt.plot(x,y)
 plt.show()
+plt.savefig('plot1.pdf', dpi=300, bbox_inches='tight') # to save file in system
